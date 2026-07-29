@@ -14,7 +14,7 @@ from pyrogram.types import BotCommand
 
 # ─── Credentials ─────────────────────────────────────────────────────────────
 API_ID    = int(os.environ["API_ID", "29481626"]
-API_HASH  = os.environ["API_HASH"]
+API_HASH  = os.environ["API_HASH", "4892185769903521077c4cea97808b8c"]
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 
 IST = pytz.timezone(os.environ.get("TIMEZONE", "Asia/Kolkata"))
