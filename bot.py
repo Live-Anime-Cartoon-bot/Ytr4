@@ -13,7 +13,7 @@ from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.types import BotCommand
 
 # ─── Credentials ─────────────────────────────────────────────────────────────
-API_ID    = int(os.environ["API_ID"])
+API_ID    = int(os.environ["API_ID", "29481626"))
 API_HASH  = os.environ["API_HASH"]
 BOT_TOKEN = os.environ["BOT_TOKEN"]
 
